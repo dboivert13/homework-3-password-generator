@@ -63,6 +63,8 @@ alert("Your password will have special characters.")
   alert("Your Password will not have special characters.");
 }
 
+alert ("Click 'Generate Password' to see your password.");
+
 
 
 // FUNCTION --------------------------------------------------------------------
@@ -71,6 +73,8 @@ function generatePassword() {
   var length = passwordLength,
       charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
       specChar = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+      casing = passwordCasing,
+      alpha = charType
       retVal = "";
   for (var i = 0, n = charset.length; i < length; ++i) {
       retVal += charset.charAt(Math.floor(Math.random() * n));
