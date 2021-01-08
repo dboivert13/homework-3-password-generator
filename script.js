@@ -63,8 +63,6 @@ alert("Your password will have special characters.")
   alert("Your Password will not have special characters.");
 }
 
-alert("Click 'Generate password' to see your password")
-
 
 
 // FUNCTION --------------------------------------------------------------------
